@@ -1,0 +1,21 @@
+.clearfix {
+	&:before,
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+body {
+	font-family : "Helvetica"
+}
+
+.product {
+	width:255px;
+	padding: 0 10px;
+	float: left;
+	height: 255px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
